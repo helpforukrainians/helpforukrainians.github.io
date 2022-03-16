@@ -1102,3 +1102,12 @@ a:hover, a:active {
 .single-page .entry-header .byline .date-format a {
     color: #bfbfbf;
 }
+
+@media screen and (max-width: 500px) {
+    .blog-page .blog-content .entry-content {
+        width: 100%;
+    }
+    .blog-page .blog-content figure {
+        display: none;
+    }
+}
